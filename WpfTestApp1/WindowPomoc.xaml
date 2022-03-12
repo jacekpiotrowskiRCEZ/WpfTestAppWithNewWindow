@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfTestApp1.WindowPomoc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTestApp1"
+        mc:Ignorable="d"
+        Title="WindowPomoc" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Column="0" FontSize="14">
+            <MenuItem Header="_Plik">
+
+                <MenuItem Header="_Zamknij" Name="close_app_button" Click="close_app_button_Click"/>
+
+            </MenuItem>
+
+        </Menu>
+        <TextBlock HorizontalAlignment="Center" Margin="0,50,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Program Demonstacyjny v.001" VerticalAlignment="Top" Height="43" Width="364" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,98,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Autor: JP" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+
+    </Grid>
+
+
+</Window>
