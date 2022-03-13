@@ -44,6 +44,7 @@ namespace WpfTestApp1
         {
           WindowPomoc windowPomoc=new WindowPomoc();
             windowPomoc.Show();
+            windowPomoc.przekazany_parametr.Text = "Witaj " + nazwisko.Text;
         }
     }
 }

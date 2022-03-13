@@ -28,5 +28,7 @@ namespace WpfTestApp1
         {
             this.Close();
         }
+
+        
     }
 }

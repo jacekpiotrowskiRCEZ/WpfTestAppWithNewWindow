@@ -22,6 +22,7 @@
         </Menu>
         <TextBlock HorizontalAlignment="Center" Margin="0,50,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Program Demonstacyjny v.001" VerticalAlignment="Top" Height="43" Width="364" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Margin="218,98,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Autor: JP" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,198,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="14"  Name="przekazany_parametr"/>
 
     </Grid>
 
